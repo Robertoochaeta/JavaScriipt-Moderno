@@ -1,0 +1,15 @@
+body{
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+
+}
+.ficha{
+    border: 2px solid black;
+    background-color: white;
+    margin: 15px auto;
+    padding: 15px;
+    width: 250px;
+
+}
