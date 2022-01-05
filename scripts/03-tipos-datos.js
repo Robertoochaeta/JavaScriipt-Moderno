@@ -55,5 +55,5 @@ console.log("titulo" in pelicula)
 console.log("year" in pelicula);
 
 for (let clave in pelicula){
-    console.log(clave);
+    console.log(pelicula[clave]);
 }
