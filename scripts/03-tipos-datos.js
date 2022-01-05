@@ -54,4 +54,6 @@ pelicula.genero= null;
 console.log("titulo" in pelicula)
 console.log("year" in pelicula);
 
-
+for (let clave in pelicula){
+    console.log(clave);
+}
