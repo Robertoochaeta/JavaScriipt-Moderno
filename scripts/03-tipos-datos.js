@@ -51,6 +51,7 @@ delete pelicula['year'];
 pelicula.genero= null;
 // console.log(pelicula.mostrar())
 // console.log(pelicula.titulo, pelicula.genero);
-console.log(pelicula)
+console.log("titulo" in pelicula)
+console.log("year" in pelicula);
 
 
