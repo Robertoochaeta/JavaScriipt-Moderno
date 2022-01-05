@@ -1,4 +1,4 @@
-// String
+/* // String
 let texto = 'Roberto Ochaeta';
 
 // number
@@ -23,7 +23,7 @@ let no_definido = undefined;
 console.log(paises[1]);
 console.log(typeof texto, typeof decimal,typeof numero,typeof mayor_Edad,typeof menor_Edad,typeof paises,
     typeof vacio,
-    typeof no_definido);
+    typeof no_definido); */
 
 /* JSON
     JavaScript Object Notation
@@ -44,6 +44,13 @@ let pelicula ={
         `
     }
 };
-console.log(pelicula.mostrar())
-console.log(pelicula.titulo, pelicula.genero);
+pelicula["pais"] = "Guatemala"
+delete pelicula.director;
+// delete pelicula.year;
+delete pelicula['year'];
+pelicula.genero= null;
+// console.log(pelicula.mostrar())
+// console.log(pelicula.titulo, pelicula.genero);
+console.log(pelicula)
+
 
